@@ -1,0 +1,140 @@
+body {
+    min-width: 1280px;
+    max-width: 1280px;
+    color: #335576;
+    font-family: Verdana;
+    display: block;
+    justify-content: center;
+    margin: 0;
+}
+
+/* header */
+
+/* header {
+    position: fixed;
+} */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 5%;
+    background-color: #FFFFFF;
+    
+}
+
+.header-container-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-country-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.header-country-list li {
+    padding: 0 3%;
+    
+}
+
+.header-country-list a {
+    text-decoration: none;
+    color: black;
+}
+/* global cards */
+.section-recommendations-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 15%;
+}
+
+.recommendations-div-cards {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 270px;
+    height: 425px;
+    background-size: cover;
+    
+}
+
+/* footer */
+footer {
+    background-color: #FEFAF5;
+    color:#335576;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 15% 0% 15%;
+    padding: 2% 0;
+}
+
+.footer-container p {
+    margin-top: 0;
+}
+
+.footer-container img {
+    padding-bottom: 19px;
+}
+
+.footer-container-div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-header{
+    font-size: x-large;
+}
+
+.footer-sub-heading-info {
+    font-size: 90%;
+}
+
+.footer-sub-heading {
+    color: #DB7A4E;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.6rem;
+}
+
+.contact-div { 
+    flex: 3; 
+}
+
+.days-div-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+
+.hours-div {
+    flex: 7;
+}
+
+.social-div {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-div {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-div img {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}

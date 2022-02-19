@@ -1,0 +1,55 @@
+.recommendations-div-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: black;
+    /* padding: 2%; */
+}
+
+.recommendations-div-cards p {
+    background-color: #FEFAF5;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    border-bottom: 3px solid black;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-recommendations-country {
+    color: #FFFFFF;
+    font-size: 70px;
+    margin: 0;
+    padding: 5% 6%;
+    width: 90%;
+}
+
+section {
+    height: 120vh;
+}
+
+.section-recommendations-iceland {
+    background-image: url("../assets/images/Images/iceland.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.section-recommendations-hawaii {
+    background-image: url("../assets/images/Images/hawaii.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.section-recommendations-greece {
+    background-image: url("../assets/images/Images/greece.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
