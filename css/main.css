@@ -49,17 +49,21 @@ button {
 }
 
 .hero-pic {
-    /* width: auto;
-    height: auto; */
-
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* recommendations */
+.section__recommendations {
+    margin: 2%;
+}
+
 .section-recommendations-div {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 15%;
+    justify-content: space-evenly;
+    margin: 0 6%;
+    
 }
 
 .recommendations-div-cards {

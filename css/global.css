@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto 5%;
+    margin: auto 6%;
     background-color: #FFFFFF;
     
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .header-country-list li {
-    padding: 0 3%;
+    padding: 0 4%;
     
 }
 
