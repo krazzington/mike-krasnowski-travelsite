@@ -9,10 +9,15 @@ body {
 }
 
 /* header */
+h1 {
+    text-decoration: none;
+    color: #335576;
+}
 
-/* header {
-    position: fixed;
-} */
+a {
+    text-decoration: none;
+    color: #335576; 
+}
 
 .header__container {
     display: flex;
@@ -38,15 +43,19 @@ body {
 }
 
 .header__country--list li {
-    padding: 0 4%;
-    
+    padding: 0 4%;    
 }
 
 .header__country--list a {
     text-decoration: none;
     color: black;
 }
+
 /* global cards */
+h2 {
+    margin: 3% 0;
+}
+
 .section__recommendations--div {
     display: flex;
     flex-direction: row;
@@ -60,7 +69,6 @@ body {
     width: 270px;
     height: 425px;
     background-size: cover;
-    
 }
 
 /* footer */

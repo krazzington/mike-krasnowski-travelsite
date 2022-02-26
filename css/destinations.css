@@ -1,11 +1,10 @@
 .recommendations__div--cards {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     background-color: #FFFFFF;
     color: black;
-    /* padding: 2%; */
+    
 }
 
 .recommendations__div--cards p {
@@ -33,23 +32,22 @@ h4 {
 }
 
 section {
-    height: 120vh;
+    height: 80vh;
+}
+
+.section__recommendations {
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .section__recommendations--iceland {
     background-image: url("../assets/images/Images/iceland.jpg");
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 .section__recommendations--hawaii {
     background-image: url("../assets/images/Images/hawaii.jpg");
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
 .section__recommendations--greece {
     background-image: url("../assets/images/Images/greece.jpg");
-    background-size: cover;
-    background-position: 50% 50%;
 }
