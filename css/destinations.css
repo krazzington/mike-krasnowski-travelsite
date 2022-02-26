@@ -1,4 +1,4 @@
-.recommendations-div-cards {
+.recommendations__div--cards {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
@@ -8,7 +8,7 @@
     /* padding: 2%; */
 }
 
-.recommendations-div-cards p {
+.recommendations__div--cards p {
     background-color: #FEFAF5;
     width: 90%;
     height: 100%;
@@ -24,7 +24,7 @@ h4 {
     justify-content: center;
 }
 
-.section-recommendations-country {
+.section__recommendations--country {
     color: #FFFFFF;
     font-size: 70px;
     margin: 0;
@@ -36,19 +36,19 @@ section {
     height: 120vh;
 }
 
-.section-recommendations-iceland {
+.section__recommendations--iceland {
     background-image: url("../assets/images/Images/iceland.jpg");
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.section-recommendations-hawaii {
+.section__recommendations--hawaii {
     background-image: url("../assets/images/Images/hawaii.jpg");
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.section-recommendations-greece {
+.section__recommendations--greece {
     background-image: url("../assets/images/Images/greece.jpg");
     background-size: cover;
     background-position: 50% 50%;

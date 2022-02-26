@@ -14,7 +14,7 @@ body {
     position: fixed;
 } */
 
-.header-container {
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +23,13 @@ body {
     
 }
 
-.header-container-left {
+.header__container--left {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.header-country-list {
+.header__country--list {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -37,24 +37,24 @@ body {
     
 }
 
-.header-country-list li {
+.header__country--list li {
     padding: 0 4%;
     
 }
 
-.header-country-list a {
+.header__country--list a {
     text-decoration: none;
     color: black;
 }
 /* global cards */
-.section-recommendations-div {
+.section__recommendations--div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 15%;
 }
 
-.recommendations-div-cards {
+.recommendations__div--cards {
     border: 1px solid black;
     border-radius: 15px;
     width: 270px;
@@ -69,7 +69,7 @@ footer {
     color:#335576;
 }
 
-.footer-container {
+.footer__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -77,40 +77,40 @@ footer {
     padding: 2% 0;
 }
 
-.footer-container p {
+.footer__container p {
     margin-top: 0;
 }
 
-.footer-container img {
+.footer__container img {
     padding-bottom: 19px;
 }
 
-.footer-container-div {
+.footer__container--div {
     display: flex;
     flex-direction: column;
     
 }
 
-.footer-header{
+.footer__header{
     font-size: x-large;
 }
 
-.footer-sub-heading-info {
+.footer__sub-heading--info {
     font-size: 90%;
 }
 
-.footer-sub-heading {
+.footer__sub-heading {
     color: #DB7A4E;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 0.6rem;
 }
 
-.contact-div { 
+.contact__div { 
     flex: 3; 
 }
 
-.days-div-flex {
+.days__div-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -118,23 +118,23 @@ footer {
     
 }
 
-.hours-div {
+.hours__div {
     flex: 7;
 }
 
-.social-div {
+.social__div {
     flex: 3;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-social-div {
+.footer__social--div {
     width: 130px;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-social-div img {
+.footer__social--div img {
     max-width: 1.5rem;
     max-height: 1.5rem;
 }
