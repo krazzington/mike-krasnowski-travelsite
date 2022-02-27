@@ -9,24 +9,21 @@
     <title>TravelSite - Home</title>
 </head>
 <body>
-	<header class="header">
-		<nav>
-            <!-- Logo and Site Name -->
-            <div class="header__container">
-                <div class="header__container--left">
+	<header class="header header__container">
+            <!-- <nav class="header__container"> -->
+                <div class="header__container--logo">
                     <a class="logo__anchor" href="index.html"><h1>Travel Site</h1></a>
                 </div>
             <!-- Destinations -->
-                <div>
+                <div class="header__container--right">
                     <ul class="header__country--list">
                         <li><a class="li__home" href="index.html">Home</a></li>
-                        <li><a class="li__greece" href="pages/greece.html">Greece</a></li>
                         <li><a class="li__hawaii" href="pages/hawaii.html">Hawaii</a></li>
                         <li><a class="li__iceland" href="pages/iceland.html">Iceland</a></li>
+                        <li><a class="li__greece" href="pages/greece.html">Greece</a></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
+            <!-- </nav> -->
 	</header>
     <hero class="hero__section">
         <div class="hero__section--div-left">
@@ -40,9 +37,9 @@
     <section class="section__recommendations">
         <h2>Recommendations</h2>
         <div class="section__recommendations--div">
-            <a href="pages/greece.html"><div class="recommendations__div--cards card__greece"><p class="card__headline">Greece</p></div></a>
-            <a href="pages/greece.html"><div class="recommendations__div--cards card__hawaii"><p class="card__headline">Hawaii</p></div></a>
-            <a href="pages/greece.html"><div class="recommendations__div--cards card__iceland"><p class="card__headline">Iceland</p></div></a>
+            <a href="pages/greece.html"><div class="recommendations__div--cards home__recommendations--card card__hawaii"><p class="card__headline">Hawaii</p></div></a>
+            <a href="pages/greece.html"><div class="recommendations__div--cards home__recommendations--card card__iceland"><p class="card__headline">Iceland</p></div></a>
+            <a href="pages/greece.html"><div class="recommendations__div--cards home__recommendations--card card__greece"><p class="card__headline">Greece</p></div></a>
         </div>
     </section>
     <footer>
