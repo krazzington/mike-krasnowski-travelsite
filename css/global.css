@@ -30,9 +30,7 @@ a, h1 {
 .header__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
-    
+    align-items: center;   
 }
 
 .header__container--logo {
@@ -49,8 +47,22 @@ a, h1 {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    padding: 0 6%;
+    padding: 0 6%;   
+}
+
+.country-list__anchor--hover:hover {
+    border: 3px solid #DB7A4E;
+    padding: 15% 12%;
+    animation: borderHover 3s 1;
     
+}
+
+@keyframes borderHover {
+    0% {border-top: #DB7A4E; left: 12%; top: 0px;}
+    25% {border-right: #DB7A4E; right: 12%; top: 0px;}
+    50% {border-bottom: #DB7A4E; left: 0; top: 15%;}
+    75% {border-left: #DB7A4E; left: 0; top: 12%;}
+    100% {border: 3px solid #DB7A4E;}
 }
 
 .header__container--right {
